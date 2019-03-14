@@ -30,3 +30,9 @@
 *.exe
 *.out
 *.app
+
+
+# OpenGL
+
+ogl-master-build/*
+ogl-master-build
