@@ -6,13 +6,13 @@
   btGeneric6DofSpringConstraint.cpp
   btHinge2Constraint.cpp
   btHingeConstraint.cpp
-c:\users\emili\onedrive\documents\opengltutorials.vs2017\external\bullet-2.81-rev2613\src\bulletdynamics\constraintsolver\btconetwistconstraint.cpp(860): warning C4244: '=' : conversion de 'double' en 'btScalar', perte possible de données
-c:\users\emili\onedrive\documents\opengltutorials.vs2017\external\bullet-2.81-rev2613\src\bulletdynamics\constraintsolver\btconetwistconstraint.cpp(905): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
-c:\users\emili\onedrive\documents\opengltutorials.vs2017\external\bullet-2.81-rev2613\src\bulletdynamics\constraintsolver\btconetwistconstraint.cpp(965): warning C4244: '=' : conversion de 'double' en 'btScalar', perte possible de données
-c:\users\emili\onedrive\documents\opengltutorials.vs2017\external\bullet-2.81-rev2613\src\bulletdynamics\constraintsolver\btconetwistconstraint.cpp(967): warning C4244: '=' : conversion de 'double' en 'btScalar', perte possible de données
-c:\users\emili\onedrive\documents\opengltutorials.vs2017\external\bullet-2.81-rev2613\src\bulletdynamics\constraintsolver\btcontactconstraint.h(25): warning C4359: 'btContactConstraint' : le spécificateur d'alignement est inférieur à l'alignement réel (128) et sera ignoré. (compilation du fichier source ConstraintSolver\btContactConstraint.cpp)
-c:\users\emili\onedrive\documents\opengltutorials.vs2017\external\bullet-2.81-rev2613\src\bulletdynamics\character\btkinematiccharactercontroller.cpp(133): warning C4305: '=' : troncation de 'double' à 'btScalar'
-c:\users\emili\onedrive\documents\opengltutorials.vs2017\external\bullet-2.81-rev2613\src\bulletdynamics\character\btkinematiccharactercontroller.cpp(144): warning C4305: '=' : troncation de 'double' à 'btScalar'
+f:\travail\3d-car-simulation\external\bullet-2.81-rev2613\src\bulletdynamics\character\btkinematiccharactercontroller.cpp(133): warning C4305: '=' : troncation de 'double' à 'btScalar'
+f:\travail\3d-car-simulation\external\bullet-2.81-rev2613\src\bulletdynamics\character\btkinematiccharactercontroller.cpp(144): warning C4305: '=' : troncation de 'double' à 'btScalar'
+f:\travail\3d-car-simulation\external\bullet-2.81-rev2613\src\bulletdynamics\constraintsolver\btcontactconstraint.h(25): warning C4359: 'btContactConstraint' : le spécificateur d'alignement est inférieur à l'alignement réel (128) et sera ignoré. (compilation du fichier source ConstraintSolver\btContactConstraint.cpp)
+f:\travail\3d-car-simulation\external\bullet-2.81-rev2613\src\bulletdynamics\constraintsolver\btconetwistconstraint.cpp(860): warning C4244: '=' : conversion de 'double' en 'btScalar', perte possible de données
+f:\travail\3d-car-simulation\external\bullet-2.81-rev2613\src\bulletdynamics\constraintsolver\btconetwistconstraint.cpp(905): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+f:\travail\3d-car-simulation\external\bullet-2.81-rev2613\src\bulletdynamics\constraintsolver\btconetwistconstraint.cpp(965): warning C4244: '=' : conversion de 'double' en 'btScalar', perte possible de données
+f:\travail\3d-car-simulation\external\bullet-2.81-rev2613\src\bulletdynamics\constraintsolver\btconetwistconstraint.cpp(967): warning C4244: '=' : conversion de 'double' en 'btScalar', perte possible de données
   btPoint2PointConstraint.cpp
   btSequentialImpulseConstraintSolver.cpp
   btSliderConstraint.cpp
@@ -21,10 +21,10 @@ c:\users\emili\onedrive\documents\opengltutorials.vs2017\external\bullet-2.81-re
   btUniversalConstraint.cpp
   btDiscreteDynamicsWorld.cpp
   btRigidBody.cpp
+f:\travail\3d-car-simulation\external\bullet-2.81-rev2613\src\bulletdynamics\constraintsolver\btcontactconstraint.h(25): warning C4359: 'btContactConstraint' : le spécificateur d'alignement est inférieur à l'alignement réel (128) et sera ignoré. (compilation du fichier source Dynamics\btDiscreteDynamicsWorld.cpp)
   btSimpleDynamicsWorld.cpp
-c:\users\emili\onedrive\documents\opengltutorials.vs2017\external\bullet-2.81-rev2613\src\bulletdynamics\constraintsolver\btcontactconstraint.h(25): warning C4359: 'btContactConstraint' : le spécificateur d'alignement est inférieur à l'alignement réel (128) et sera ignoré. (compilation du fichier source Dynamics\btDiscreteDynamicsWorld.cpp)
   Bullet-C-API.cpp
   btRaycastVehicle.cpp
   btWheelInfo.cpp
-c:\users\emili\onedrive\documents\opengltutorials.vs2017\external\bullet-2.81-rev2613\src\bulletdynamics\constraintsolver\btcontactconstraint.h(25): warning C4359: 'btContactConstraint' : le spécificateur d'alignement est inférieur à l'alignement réel (128) et sera ignoré. (compilation du fichier source Vehicle\btRaycastVehicle.cpp)
-  BulletDynamics.vcxproj -> C:\Users\emili\OneDrive\Documents\OpenGLTutorials.VS2017\Intermediate\Lib\Debug\BulletDynamics.lib
+f:\travail\3d-car-simulation\external\bullet-2.81-rev2613\src\bulletdynamics\constraintsolver\btcontactconstraint.h(25): warning C4359: 'btContactConstraint' : le spécificateur d'alignement est inférieur à l'alignement réel (128) et sera ignoré. (compilation du fichier source Vehicle\btRaycastVehicle.cpp)
+  BulletDynamics.vcxproj -> F:\travail\3D-Car-Simulation\Intermediate\Lib\Debug\BulletDynamics.lib

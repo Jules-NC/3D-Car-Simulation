@@ -90,4 +90,4 @@
   btSubSimplexConvexCast.cpp
   btVoronoiSimplexSolver.cpp
   btPolyhedralContactClipping.cpp
-  BulletCollision.vcxproj -> C:\Users\emili\OneDrive\Documents\OpenGLTutorials.VS2017\Intermediate\Lib\Debug\BulletCollision.lib
+  BulletCollision.vcxproj -> F:\travail\3D-Car-Simulation\Intermediate\Lib\Debug\BulletCollision.lib

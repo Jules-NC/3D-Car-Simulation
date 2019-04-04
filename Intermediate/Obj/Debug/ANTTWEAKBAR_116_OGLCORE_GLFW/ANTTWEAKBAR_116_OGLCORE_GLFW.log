@@ -6,23 +6,35 @@
   TwMgr.cpp
   TwOpenGL.cpp
   TwOpenGLCore.cpp
-c:\users\emili\onedrive\documents\opengltutorials.vs2017\external\anttweakbar-1.16\src\twmgr.cpp(6225): warning C4302: 'cast de type' : troncation de 'LPSTR' à 'WORD'
-c:\users\emili\onedrive\documents\opengltutorials.vs2017\external\anttweakbar-1.16\src\twmgr.cpp(6226): warning C4302: 'cast de type' : troncation de 'LPSTR' à 'WORD'
-c:\users\emili\onedrive\documents\opengltutorials.vs2017\external\anttweakbar-1.16\src\twmgr.cpp(6227): warning C4302: 'cast de type' : troncation de 'LPSTR' à 'WORD'
-c:\users\emili\onedrive\documents\opengltutorials.vs2017\external\anttweakbar-1.16\src\twmgr.cpp(6228): warning C4302: 'cast de type' : troncation de 'LPSTR' à 'WORD'
-c:\users\emili\onedrive\documents\opengltutorials.vs2017\external\anttweakbar-1.16\src\twmgr.cpp(6229): warning C4302: 'cast de type' : troncation de 'LPSTR' à 'WORD'
-c:\users\emili\onedrive\documents\opengltutorials.vs2017\external\anttweakbar-1.16\src\twmgr.cpp(6230): warning C4302: 'cast de type' : troncation de 'LPSTR' à 'WORD'
-c:\users\emili\onedrive\documents\opengltutorials.vs2017\external\anttweakbar-1.16\src\twmgr.cpp(6231): warning C4302: 'cast de type' : troncation de 'LPSTR' à 'WORD'
-c:\users\emili\onedrive\documents\opengltutorials.vs2017\external\anttweakbar-1.16\src\twmgr.cpp(6232): warning C4302: 'cast de type' : troncation de 'LPSTR' à 'WORD'
-c:\users\emili\onedrive\documents\opengltutorials.vs2017\external\anttweakbar-1.16\src\twmgr.cpp(6233): warning C4302: 'cast de type' : troncation de 'LPSTR' à 'WORD'
-c:\users\emili\onedrive\documents\opengltutorials.vs2017\external\anttweakbar-1.16\src\twmgr.cpp(6234): warning C4302: 'cast de type' : troncation de 'LPSTR' à 'WORD'
-c:\users\emili\onedrive\documents\opengltutorials.vs2017\external\anttweakbar-1.16\src\twmgr.cpp(6235): warning C4302: 'cast de type' : troncation de 'LPSTR' à 'WORD'
-c:\users\emili\onedrive\documents\opengltutorials.vs2017\external\anttweakbar-1.16\src\twmgr.cpp(6236): warning C4302: 'cast de type' : troncation de 'LPSTR' à 'WORD'
-c:\users\emili\onedrive\documents\opengltutorials.vs2017\external\anttweakbar-1.16\src\twmgr.cpp(6237): warning C4302: 'cast de type' : troncation de 'LPSTR' à 'WORD'
-c:\users\emili\onedrive\documents\opengltutorials.vs2017\external\anttweakbar-1.16\src\twmgr.cpp(6239): warning C4302: 'cast de type' : troncation de 'LPSTR' à 'WORD'
-c:\users\emili\onedrive\documents\opengltutorials.vs2017\external\anttweakbar-1.16\src\twmgr.cpp(6252): warning C4302: 'cast de type' : troncation de 'LPSTR' à 'WORD'
-c:\users\emili\onedrive\documents\opengltutorials.vs2017\external\anttweakbar-1.16\src\twmgr.cpp(6258): warning C4302: 'cast de type' : troncation de 'LPSTR' à 'WORD'
-c:\users\emili\onedrive\documents\opengltutorials.vs2017\external\anttweakbar-1.16\src\twmgr.cpp(6267): warning C4302: 'cast de type' : troncation de 'LPSTR' à 'WORD'
+f:\travail\3d-car-simulation\external\anttweakbar-1.16\src\twfonts.h : warning C4819: Le fichier contient un caractère qui ne peut pas être représenté dans la page de codes actuelle (936). Enregistrez le fichier au format Unicode pour éviter de perdre des données (compilation du fichier source ..\..\external\AntTweakBar-1.16\src\TwFonts.cpp)
+f:\travail\3d-car-simulation\external\anttweakbar-1.16\src\twfonts.h : warning C4819: Le fichier contient un caractère qui ne peut pas être représenté dans la page de codes actuelle (936). Enregistrez le fichier au format Unicode pour éviter de perdre des données (compilation du fichier source ..\..\external\AntTweakBar-1.16\src\TwFonts.cpp)
+f:\travail\3d-car-simulation\external\anttweakbar-1.16\src\twfonts.h : warning C4819: Le fichier contient un caractère qui ne peut pas être représenté dans la page de codes actuelle (936). Enregistrez le fichier au format Unicode pour éviter de perdre des données (compilation du fichier source ..\..\external\AntTweakBar-1.16\src\TwBar.cpp)
+f:\travail\3d-car-simulation\external\anttweakbar-1.16\src\twfonts.h : warning C4819: Le fichier contient un caractère qui ne peut pas être représenté dans la page de codes actuelle (936). Enregistrez le fichier au format Unicode pour éviter de perdre des données (compilation du fichier source ..\..\external\AntTweakBar-1.16\src\TwBar.cpp)
+f:\travail\3d-car-simulation\external\anttweakbar-1.16\src\twfonts.h : warning C4819: Le fichier contient un caractère qui ne peut pas être représenté dans la page de codes actuelle (936). Enregistrez le fichier au format Unicode pour éviter de perdre des données (compilation du fichier source ..\..\external\AntTweakBar-1.16\src\TwFonts.cpp)
+f:\travail\3d-car-simulation\external\anttweakbar-1.16\src\twfonts.h : warning C4819: Le fichier contient un caractère qui ne peut pas être représenté dans la page de codes actuelle (936). Enregistrez le fichier au format Unicode pour éviter de perdre des données (compilation du fichier source ..\..\external\AntTweakBar-1.16\src\TwMgr.cpp)
+f:\travail\3d-car-simulation\external\anttweakbar-1.16\src\twfonts.h : warning C4819: Le fichier contient un caractère qui ne peut pas être représenté dans la page de codes actuelle (936). Enregistrez le fichier au format Unicode pour éviter de perdre des données (compilation du fichier source ..\..\external\AntTweakBar-1.16\src\TwMgr.cpp)
+f:\travail\3d-car-simulation\external\anttweakbar-1.16\src\twfonts.h : warning C4819: Le fichier contient un caractère qui ne peut pas être représenté dans la page de codes actuelle (936). Enregistrez le fichier au format Unicode pour éviter de perdre des données (compilation du fichier source ..\..\external\AntTweakBar-1.16\src\TwOpenGL.cpp)
+f:\travail\3d-car-simulation\external\anttweakbar-1.16\src\twfonts.h : warning C4819: Le fichier contient un caractère qui ne peut pas être représenté dans la page de codes actuelle (936). Enregistrez le fichier au format Unicode pour éviter de perdre des données (compilation du fichier source ..\..\external\AntTweakBar-1.16\src\TwOpenGLCore.cpp)
+f:\travail\3d-car-simulation\external\anttweakbar-1.16\src\twfonts.h : warning C4819: Le fichier contient un caractère qui ne peut pas être représenté dans la page de codes actuelle (936). Enregistrez le fichier au format Unicode pour éviter de perdre des données (compilation du fichier source ..\..\external\AntTweakBar-1.16\src\TwOpenGL.cpp)
+f:\travail\3d-car-simulation\external\anttweakbar-1.16\src\twfonts.h : warning C4819: Le fichier contient un caractère qui ne peut pas être représenté dans la page de codes actuelle (936). Enregistrez le fichier au format Unicode pour éviter de perdre des données (compilation du fichier source ..\..\external\AntTweakBar-1.16\src\TwOpenGLCore.cpp)
+f:\travail\3d-car-simulation\external\anttweakbar-1.16\src\twfonts.h : warning C4819: Le fichier contient un caractère qui ne peut pas être représenté dans la page de codes actuelle (936). Enregistrez le fichier au format Unicode pour éviter de perdre des données (compilation du fichier source ..\..\external\AntTweakBar-1.16\src\TwMgr.cpp)
+f:\travail\3d-car-simulation\external\anttweakbar-1.16\src\twmgr.cpp(6225): warning C4302: 'cast de type' : troncation de 'LPSTR' à 'WORD'
+f:\travail\3d-car-simulation\external\anttweakbar-1.16\src\twmgr.cpp(6226): warning C4302: 'cast de type' : troncation de 'LPSTR' à 'WORD'
+f:\travail\3d-car-simulation\external\anttweakbar-1.16\src\twmgr.cpp(6227): warning C4302: 'cast de type' : troncation de 'LPSTR' à 'WORD'
+f:\travail\3d-car-simulation\external\anttweakbar-1.16\src\twmgr.cpp(6228): warning C4302: 'cast de type' : troncation de 'LPSTR' à 'WORD'
+f:\travail\3d-car-simulation\external\anttweakbar-1.16\src\twmgr.cpp(6229): warning C4302: 'cast de type' : troncation de 'LPSTR' à 'WORD'
+f:\travail\3d-car-simulation\external\anttweakbar-1.16\src\twmgr.cpp(6230): warning C4302: 'cast de type' : troncation de 'LPSTR' à 'WORD'
+f:\travail\3d-car-simulation\external\anttweakbar-1.16\src\twmgr.cpp(6231): warning C4302: 'cast de type' : troncation de 'LPSTR' à 'WORD'
+f:\travail\3d-car-simulation\external\anttweakbar-1.16\src\twmgr.cpp(6232): warning C4302: 'cast de type' : troncation de 'LPSTR' à 'WORD'
+f:\travail\3d-car-simulation\external\anttweakbar-1.16\src\twmgr.cpp(6233): warning C4302: 'cast de type' : troncation de 'LPSTR' à 'WORD'
+f:\travail\3d-car-simulation\external\anttweakbar-1.16\src\twmgr.cpp(6234): warning C4302: 'cast de type' : troncation de 'LPSTR' à 'WORD'
+f:\travail\3d-car-simulation\external\anttweakbar-1.16\src\twmgr.cpp(6235): warning C4302: 'cast de type' : troncation de 'LPSTR' à 'WORD'
+f:\travail\3d-car-simulation\external\anttweakbar-1.16\src\twmgr.cpp(6236): warning C4302: 'cast de type' : troncation de 'LPSTR' à 'WORD'
+f:\travail\3d-car-simulation\external\anttweakbar-1.16\src\twmgr.cpp(6237): warning C4302: 'cast de type' : troncation de 'LPSTR' à 'WORD'
+f:\travail\3d-car-simulation\external\anttweakbar-1.16\src\twmgr.cpp(6239): warning C4302: 'cast de type' : troncation de 'LPSTR' à 'WORD'
+f:\travail\3d-car-simulation\external\anttweakbar-1.16\src\twmgr.cpp(6252): warning C4302: 'cast de type' : troncation de 'LPSTR' à 'WORD'
+f:\travail\3d-car-simulation\external\anttweakbar-1.16\src\twmgr.cpp(6258): warning C4302: 'cast de type' : troncation de 'LPSTR' à 'WORD'
+f:\travail\3d-car-simulation\external\anttweakbar-1.16\src\twmgr.cpp(6267): warning C4302: 'cast de type' : troncation de 'LPSTR' à 'WORD'
   TwPrecomp.cpp
   TwEventGLFW.c
-  ANTTWEAKBAR_116_OGLCORE_GLFW.vcxproj -> C:\Users\emili\OneDrive\Documents\OpenGLTutorials.VS2017\Intermediate\Lib\Debug\ANTTWEAKBAR_116_OGLCORE_GLFW.lib
+  ANTTWEAKBAR_116_OGLCORE_GLFW.vcxproj -> F:\travail\3D-Car-Simulation\Intermediate\Lib\Debug\ANTTWEAKBAR_116_OGLCORE_GLFW.lib

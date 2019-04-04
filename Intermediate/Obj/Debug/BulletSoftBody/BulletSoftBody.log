@@ -6,9 +6,10 @@
   btSoftRigidDynamicsWorld.cpp
   btSoftSoftCollisionAlgorithm.cpp
   btDefaultSoftBodySolver.cpp
-c:\users\emili\onedrive\documents\opengltutorials.vs2017\external\bullet-2.81-rev2613\src\bulletsoftbody\btsoftbodyhelpers.cpp(916): warning C4838: la conversion de 'T' en 'const int' requiert une conversion restrictive
+f:\travail\3d-car-simulation\external\bullet-2.81-rev2613\src\bulletsoftbody\btsoftbody.cpp : warning C4819: Le fichier contient un caractère qui ne peut pas être représenté dans la page de codes actuelle (936). Enregistrez le fichier au format Unicode pour éviter de perdre des données
+f:\travail\3d-car-simulation\external\bullet-2.81-rev2613\src\bulletsoftbody\btsoftbodyhelpers.cpp(916): warning C4838: la conversion de 'T' en 'const int' requiert une conversion restrictive
           with
           [
               T=unsigned int
           ]
-  BulletSoftBody.vcxproj -> C:\Users\emili\OneDrive\Documents\OpenGLTutorials.VS2017\Intermediate\Lib\Debug\BulletSoftBody.lib
+  BulletSoftBody.vcxproj -> F:\travail\3D-Car-Simulation\Intermediate\Lib\Debug\BulletSoftBody.lib

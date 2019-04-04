@@ -13,6 +13,7 @@
   SceneCombiner.cpp
   ScenePreprocessor.cpp
   SkeletonMeshBuilder.cpp
+f:\travail\3d-car-simulation\external\assimp-3.0.1270\code\spatialsort.cpp : warning C4819: Le fichier contient un caractère qui ne peut pas être représenté dans la page de codes actuelle (936). Enregistrez le fichier au format Unicode pour éviter de perdre des données
   SplitByBoneCountProcess.cpp
   StandardShapes.cpp
   TargetAnimation.cpp
@@ -96,6 +97,7 @@
   Q3BSPZipArchive.cpp
   RawLoader.cpp
   SMDLoader.cpp
+f:\travail\3d-car-simulation\external\assimp-3.0.1270\code\smdloader.cpp : warning C4819: Le fichier contient un caractère qui ne peut pas être représenté dans la page de codes actuelle (936). Enregistrez le fichier au format Unicode pour éviter de perdre des données
   STLLoader.cpp
   STLExporter.cpp
   UnrealLoader.cpp
@@ -116,15 +118,19 @@
   IFCProfile.cpp
   IFCCurve.cpp
   STEPFileReader.cpp
+f:\travail\3d-car-simulation\external\assimp-3.0.1270\contrib\clipper\clipper.hpp : warning C4819: Le fichier contient un caractère qui ne peut pas être représenté dans la page de codes actuelle (936). Enregistrez le fichier au format Unicode pour éviter de perdre des données (compilation du fichier source code\IFCGeometry.cpp)
   XGLLoader.cpp
   irrXML.cpp
   shapes.cc
   advancing_front.cc
   cdt.cc
+f:\travail\3d-car-simulation\external\assimp-3.0.1270\contrib\irrxml\irrstring.h : warning C4819: Le fichier contient un caractère qui ne peut pas être représenté dans la page de codes actuelle (936). Enregistrez le fichier au format Unicode pour éviter de perdre des données (compilation du fichier source contrib\irrXML\irrXML.cpp)
   sweep.cc
   sweep_context.cc
   clipper.cpp
+f:\travail\3d-car-simulation\external\assimp-3.0.1270\contrib\clipper\clipper.cpp : warning C4819: Le fichier contient un caractère qui ne peut pas être représenté dans la page de codes actuelle (936). Enregistrez le fichier au format Unicode pour éviter de perdre des données
+f:\travail\3d-car-simulation\external\assimp-3.0.1270\contrib\clipper\clipper.hpp : warning C4819: Le fichier contient un caractère qui ne peut pas être représenté dans la page de codes actuelle (936). Enregistrez le fichier au format Unicode pour éviter de perdre des données (compilation du fichier source contrib\clipper\clipper.cpp)
   ConvertUTF.c
   ioapi.c
   unzip.c
-  assimp.vcxproj -> C:\Users\emili\OneDrive\Documents\OpenGLTutorials.VS2017\Intermediate\Lib\Debug\assimp.lib
+  assimp.vcxproj -> F:\travail\3D-Car-Simulation\Intermediate\Lib\Debug\assimp.lib
