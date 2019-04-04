@@ -1,0 +1,10 @@
+﻿  adler32.c
+  compress.c
+  crc32.c
+  deflate.c
+  inffast.c
+  inflate.c
+  inftrees.c
+  trees.c
+  zutil.c
+  zlib.vcxproj -> C:\Users\emili\OneDrive\Documents\OpenGLTutorials.VS2017\Intermediate\Lib\Debug\zlibd.lib

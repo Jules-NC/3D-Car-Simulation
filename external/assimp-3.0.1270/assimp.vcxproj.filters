@@ -1,0 +1,510 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="code\Assimp.cpp" />
+    <ClCompile Include="code\AssimpPCH.cpp" />
+    <ClCompile Include="code\BaseImporter.cpp" />
+    <ClCompile Include="code\BaseProcess.cpp" />
+    <ClCompile Include="code\PostStepRegistry.cpp" />
+    <ClCompile Include="code\ImporterRegistry.cpp" />
+    <ClCompile Include="code\DefaultIOStream.cpp" />
+    <ClCompile Include="code\DefaultIOSystem.cpp" />
+    <ClCompile Include="code\Importer.cpp" />
+    <ClCompile Include="code\SGSpatialSort.cpp" />
+    <ClCompile Include="code\VertexTriangleAdjacency.cpp" />
+    <ClCompile Include="code\SpatialSort.cpp" />
+    <ClCompile Include="code\SceneCombiner.cpp" />
+    <ClCompile Include="code\ScenePreprocessor.cpp" />
+    <ClCompile Include="code\SkeletonMeshBuilder.cpp" />
+    <ClCompile Include="code\SplitByBoneCountProcess.cpp" />
+    <ClCompile Include="code\StandardShapes.cpp" />
+    <ClCompile Include="code\TargetAnimation.cpp" />
+    <ClCompile Include="code\RemoveComments.cpp" />
+    <ClCompile Include="code\Subdivision.cpp" />
+    <ClCompile Include="code\DefaultLogger.cpp" />
+    <ClCompile Include="code\Exporter.cpp" />
+    <ClCompile Include="code\AssimpCExport.cpp" />
+    <ClCompile Include="code\CalcTangentsProcess.cpp" />
+    <ClCompile Include="code\ComputeUVMappingProcess.cpp" />
+    <ClCompile Include="code\ConvertToLHProcess.cpp" />
+    <ClCompile Include="code\FindDegenerates.cpp" />
+    <ClCompile Include="code\FindInstancesProcess.cpp" />
+    <ClCompile Include="code\FindInvalidDataProcess.cpp" />
+    <ClCompile Include="code\FixNormalsStep.cpp" />
+    <ClCompile Include="code\GenFaceNormalsProcess.cpp" />
+    <ClCompile Include="code\GenVertexNormalsProcess.cpp" />
+    <ClCompile Include="code\PretransformVertices.cpp" />
+    <ClCompile Include="code\ImproveCacheLocality.cpp" />
+    <ClCompile Include="code\JoinVerticesProcess.cpp" />
+    <ClCompile Include="code\LimitBoneWeightsProcess.cpp" />
+    <ClCompile Include="code\RemoveRedundantMaterials.cpp" />
+    <ClCompile Include="code\RemoveVCProcess.cpp" />
+    <ClCompile Include="code\SortByPTypeProcess.cpp" />
+    <ClCompile Include="code\SplitLargeMeshes.cpp" />
+    <ClCompile Include="code\TerragenLoader.cpp" />
+    <ClCompile Include="code\TextureTransform.cpp" />
+    <ClCompile Include="code\TriangulateProcess.cpp" />
+    <ClCompile Include="code\ValidateDataStructure.cpp" />
+    <ClCompile Include="code\OptimizeGraph.cpp" />
+    <ClCompile Include="code\OptimizeMeshes.cpp" />
+    <ClCompile Include="code\DeboneProcess.cpp" />
+    <ClCompile Include="code\ProcessHelper.cpp" />
+    <ClCompile Include="code\MakeVerboseFormat.cpp" />
+    <ClCompile Include="code\3DSConverter.cpp" />
+    <ClCompile Include="code\3DSLoader.cpp" />
+    <ClCompile Include="code\ACLoader.cpp" />
+    <ClCompile Include="code\ASELoader.cpp" />
+    <ClCompile Include="code\ASEParser.cpp" />
+    <ClCompile Include="code\B3DImporter.cpp" />
+    <ClCompile Include="code\BVHLoader.cpp" />
+    <ClCompile Include="code\ColladaLoader.cpp" />
+    <ClCompile Include="code\ColladaParser.cpp" />
+    <ClCompile Include="code\ColladaExporter.cpp" />
+    <ClCompile Include="code\DXFLoader.cpp" />
+    <ClCompile Include="code\CSMLoader.cpp" />
+    <ClCompile Include="code\HMPLoader.cpp" />
+    <ClCompile Include="code\IRRLoader.cpp" />
+    <ClCompile Include="code\IRRMeshLoader.cpp" />
+    <ClCompile Include="code\IRRShared.cpp" />
+    <ClCompile Include="code\LWOAnimation.cpp" />
+    <ClCompile Include="code\LWOBLoader.cpp" />
+    <ClCompile Include="code\LWOLoader.cpp" />
+    <ClCompile Include="code\LWOMaterial.cpp" />
+    <ClCompile Include="code\LWSLoader.cpp" />
+    <ClCompile Include="code\M3Importer.cpp" />
+    <ClCompile Include="code\MD2Loader.cpp" />
+    <ClCompile Include="code\MD3Loader.cpp" />
+    <ClCompile Include="code\MD5Loader.cpp" />
+    <ClCompile Include="code\MD5Parser.cpp" />
+    <ClCompile Include="code\MDCLoader.cpp" />
+    <ClCompile Include="code\MDLLoader.cpp" />
+    <ClCompile Include="code\MDLMaterialLoader.cpp" />
+    <ClCompile Include="code\MaterialSystem.cpp" />
+    <ClCompile Include="code\NFFLoader.cpp" />
+    <ClCompile Include="code\OFFLoader.cpp" />
+    <ClCompile Include="code\ObjFileImporter.cpp" />
+    <ClCompile Include="code\ObjFileMtlImporter.cpp" />
+    <ClCompile Include="code\ObjFileParser.cpp" />
+    <ClCompile Include="code\ObjExporter.cpp" />
+    <ClCompile Include="code\OgreImporter.cpp" />
+    <ClCompile Include="code\OgreMaterial.cpp" />
+    <ClCompile Include="code\OgreMesh.cpp" />
+    <ClCompile Include="code\OgreSkeleton.cpp" />
+    <ClCompile Include="code\PlyLoader.cpp" />
+    <ClCompile Include="code\PlyParser.cpp" />
+    <ClCompile Include="code\PlyExporter.cpp" />
+    <ClCompile Include="code\Q3DLoader.cpp" />
+    <ClCompile Include="code\Q3BSPFileParser.cpp" />
+    <ClCompile Include="code\Q3BSPFileImporter.cpp" />
+    <ClCompile Include="code\Q3BSPZipArchive.cpp" />
+    <ClCompile Include="code\RawLoader.cpp" />
+    <ClCompile Include="code\SMDLoader.cpp" />
+    <ClCompile Include="code\STLLoader.cpp" />
+    <ClCompile Include="code\STLExporter.cpp" />
+    <ClCompile Include="code\UnrealLoader.cpp" />
+    <ClCompile Include="code\XFileImporter.cpp" />
+    <ClCompile Include="code\XFileParser.cpp" />
+    <ClCompile Include="code\MS3DLoader.cpp" />
+    <ClCompile Include="code\COBLoader.cpp" />
+    <ClCompile Include="code\BlenderLoader.cpp" />
+    <ClCompile Include="code\BlenderDNA.cpp" />
+    <ClCompile Include="code\BlenderScene.cpp" />
+    <ClCompile Include="code\BlenderModifier.cpp" />
+    <ClCompile Include="code\NDOLoader.cpp" />
+    <ClCompile Include="code\IFCLoader.cpp" />
+    <ClCompile Include="code\IFCReaderGen.cpp" />
+    <ClCompile Include="code\IFCUtil.cpp" />
+    <ClCompile Include="code\IFCGeometry.cpp" />
+    <ClCompile Include="code\IFCMaterial.cpp" />
+    <ClCompile Include="code\IFCProfile.cpp" />
+    <ClCompile Include="code\IFCCurve.cpp" />
+    <ClCompile Include="code\STEPFileReader.cpp" />
+    <ClCompile Include="code\XGLLoader.cpp" />
+    <ClCompile Include="contrib\irrXML\irrXML.cpp" />
+    <ClCompile Include="contrib\ConvertUTF\ConvertUTF.c" />
+    <ClCompile Include="contrib\unzip\ioapi.c" />
+    <ClCompile Include="contrib\unzip\unzip.c" />
+    <ClCompile Include="contrib\poly2tri\poly2tri\common\shapes.cc" />
+    <ClCompile Include="contrib\poly2tri\poly2tri\sweep\advancing_front.cc" />
+    <ClCompile Include="contrib\poly2tri\poly2tri\sweep\cdt.cc" />
+    <ClCompile Include="contrib\poly2tri\poly2tri\sweep\sweep.cc" />
+    <ClCompile Include="contrib\poly2tri\poly2tri\sweep\sweep_context.cc" />
+    <ClCompile Include="contrib\clipper\clipper.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="code\AssimpPCH.h" />
+    <ClInclude Include="code\fast_atof.h" />
+    <ClInclude Include="code\qnan.h" />
+    <ClInclude Include="code\BaseImporter.h" />
+    <ClInclude Include="code\BaseProcess.h" />
+    <ClInclude Include="code\Importer.h" />
+    <ClInclude Include="code\ScenePrivate.h" />
+    <ClInclude Include="code\ByteSwap.h" />
+    <ClInclude Include="code\DefaultProgressHandler.h" />
+    <ClInclude Include="code\DefaultIOStream.h" />
+    <ClInclude Include="code\DefaultIOSystem.h" />
+    <ClInclude Include="code\CInterfaceIOWrapper.h" />
+    <ClInclude Include="code\Hash.h" />
+    <ClInclude Include="code\IFF.h" />
+    <ClInclude Include="code\ParsingUtils.h" />
+    <ClInclude Include="code\StdOStreamLogStream.h" />
+    <ClInclude Include="code\StreamReader.h" />
+    <ClInclude Include="code\StringComparison.h" />
+    <ClInclude Include="code\SGSpatialSort.h" />
+    <ClInclude Include="code\VertexTriangleAdjacency.h" />
+    <ClInclude Include="code\GenericProperty.h" />
+    <ClInclude Include="code\SpatialSort.h" />
+    <ClInclude Include="code\SceneCombiner.h" />
+    <ClInclude Include="code\ScenePreprocessor.h" />
+    <ClInclude Include="code\SkeletonMeshBuilder.h" />
+    <ClInclude Include="code\SplitByBoneCountProcess.h" />
+    <ClInclude Include="code\SmoothingGroups.h" />
+    <ClInclude Include="code\StandardShapes.h" />
+    <ClInclude Include="code\TargetAnimation.h" />
+    <ClInclude Include="code\RemoveComments.h" />
+    <ClInclude Include="code\Subdivision.h" />
+    <ClInclude Include="code\Vertex.h" />
+    <ClInclude Include="code\LineSplitter.h" />
+    <ClInclude Include="code\TinyFormatter.h" />
+    <ClInclude Include="code\Profiler.h" />
+    <ClInclude Include="code\LogAux.h" />
+    <ClInclude Include="include\assimp\DefaultLogger.hpp" />
+    <ClInclude Include="include\assimp\IOStream.hpp" />
+    <ClInclude Include="include\assimp\LogStream.hpp" />
+    <ClInclude Include="include\assimp\Logger.hpp" />
+    <ClInclude Include="include\assimp\NullLogger.hpp" />
+    <ClInclude Include="code\Win32DebugLogStream.h" />
+    <ClInclude Include="code\FileLogStream.h" />
+    <ClInclude Include="code\BlobIOSystem.h" />
+    <ClInclude Include="code\CalcTangentsProcess.h" />
+    <ClInclude Include="code\ComputeUVMappingProcess.h" />
+    <ClInclude Include="code\ConvertToLHProcess.h" />
+    <ClInclude Include="code\FindDegenerates.h" />
+    <ClInclude Include="code\FindInstancesProcess.h" />
+    <ClInclude Include="code\FindInvalidDataProcess.h" />
+    <ClInclude Include="code\FixNormalsStep.h" />
+    <ClInclude Include="code\GenFaceNormalsProcess.h" />
+    <ClInclude Include="code\GenVertexNormalsProcess.h" />
+    <ClInclude Include="code\PretransformVertices.h" />
+    <ClInclude Include="code\ImproveCacheLocality.h" />
+    <ClInclude Include="code\JoinVerticesProcess.h" />
+    <ClInclude Include="code\LimitBoneWeightsProcess.h" />
+    <ClInclude Include="code\RemoveRedundantMaterials.h" />
+    <ClInclude Include="code\RemoveVCProcess.h" />
+    <ClInclude Include="code\SortByPTypeProcess.h" />
+    <ClInclude Include="code\SplitLargeMeshes.h" />
+    <ClInclude Include="code\TerragenLoader.h" />
+    <ClInclude Include="code\TextureTransform.h" />
+    <ClInclude Include="code\TriangulateProcess.h" />
+    <ClInclude Include="code\ValidateDataStructure.h" />
+    <ClInclude Include="code\OptimizeGraph.h" />
+    <ClInclude Include="code\OptimizeMeshes.h" />
+    <ClInclude Include="code\DeboneProcess.h" />
+    <ClInclude Include="code\ProcessHelper.h" />
+    <ClInclude Include="code\PolyTools.h" />
+    <ClInclude Include="code\MakeVerboseFormat.h" />
+    <ClInclude Include="code\3DSHelper.h" />
+    <ClInclude Include="code\3DSLoader.h" />
+    <ClInclude Include="code\ACLoader.h" />
+    <ClInclude Include="code\ASELoader.h" />
+    <ClInclude Include="code\ASEParser.h" />
+    <ClInclude Include="code\B3DImporter.h" />
+    <ClInclude Include="code\BVHLoader.h" />
+    <ClInclude Include="code\ColladaHelper.h" />
+    <ClInclude Include="code\ColladaLoader.h" />
+    <ClInclude Include="code\ColladaParser.h" />
+    <ClInclude Include="code\ColladaExporter.h" />
+    <ClInclude Include="code\DXFLoader.h" />
+    <ClInclude Include="code\DXFHelper.h" />
+    <ClInclude Include="code\CSMLoader.h" />
+    <ClInclude Include="code\HMPFileData.h" />
+    <ClInclude Include="code\HMPLoader.h" />
+    <ClInclude Include="code\HalfLifeFileData.h" />
+    <ClInclude Include="code\IRRLoader.h" />
+    <ClInclude Include="code\IRRMeshLoader.h" />
+    <ClInclude Include="code\IRRShared.h" />
+    <ClInclude Include="code\LWOAnimation.h" />
+    <ClInclude Include="code\LWOFileData.h" />
+    <ClInclude Include="code\LWOLoader.h" />
+    <ClInclude Include="code\LWSLoader.h" />
+    <ClInclude Include="code\M3Importer.h" />
+    <ClInclude Include="code\MD2FileData.h" />
+    <ClInclude Include="code\MD2Loader.h" />
+    <ClInclude Include="code\MD2NormalTable.h" />
+    <ClInclude Include="code\MD3FileData.h" />
+    <ClInclude Include="code\MD3Loader.h" />
+    <ClInclude Include="code\MD5Loader.h" />
+    <ClInclude Include="code\MD5Parser.h" />
+    <ClInclude Include="code\MDCFileData.h" />
+    <ClInclude Include="code\MDCLoader.h" />
+    <ClInclude Include="code\MDCNormalTable.h" />
+    <ClInclude Include="code\MDLDefaultColorMap.h" />
+    <ClInclude Include="code\MDLFileData.h" />
+    <ClInclude Include="code\MDLLoader.h" />
+    <ClInclude Include="code\MaterialSystem.h" />
+    <ClInclude Include="code\NFFLoader.h" />
+    <ClInclude Include="code\OFFLoader.h" />
+    <ClInclude Include="code\ObjFileData.h" />
+    <ClInclude Include="code\ObjFileImporter.h" />
+    <ClInclude Include="code\ObjFileMtlImporter.h" />
+    <ClInclude Include="code\ObjFileParser.h" />
+    <ClInclude Include="code\ObjTools.h" />
+    <ClInclude Include="code\ObjExporter.h" />
+    <ClInclude Include="code\OgreImporter.hpp" />
+    <ClInclude Include="code\OgreXmlHelper.hpp" />
+    <ClInclude Include="code\PlyLoader.h" />
+    <ClInclude Include="code\PlyParser.h" />
+    <ClInclude Include="code\PlyExporter.h" />
+    <ClInclude Include="code\Q3DLoader.h" />
+    <ClInclude Include="code\Q3BSPFileData.h" />
+    <ClInclude Include="code\Q3BSPFileParser.h" />
+    <ClInclude Include="code\Q3BSPFileImporter.h" />
+    <ClInclude Include="code\Q3BSPZipArchive.h" />
+    <ClInclude Include="code\RawLoader.h" />
+    <ClInclude Include="code\SMDLoader.h" />
+    <ClInclude Include="code\STLLoader.h" />
+    <ClInclude Include="code\STLExporter.h" />
+    <ClInclude Include="code\UnrealLoader.h" />
+    <ClInclude Include="code\XFileHelper.h" />
+    <ClInclude Include="code\XFileImporter.h" />
+    <ClInclude Include="code\XFileParser.h" />
+    <ClInclude Include="code\MD4FileData.h" />
+    <ClInclude Include="code\MS3DLoader.h" />
+    <ClInclude Include="code\COBLoader.h" />
+    <ClInclude Include="code\COBScene.h" />
+    <ClInclude Include="code\BlenderLoader.h" />
+    <ClInclude Include="code\BlenderDNA.h" />
+    <ClInclude Include="code\BlenderDNA.inl" />
+    <ClInclude Include="code\BlenderScene.h" />
+    <ClInclude Include="code\BlenderSceneGen.h" />
+    <ClInclude Include="code\BlenderIntermediate.h" />
+    <ClInclude Include="code\BlenderModifier.h" />
+    <ClInclude Include="code\NDOLoader.h" />
+    <ClInclude Include="code\IFCLoader.h" />
+    <ClInclude Include="code\IFCReaderGen.h" />
+    <ClInclude Include="code\IFCUtil.h" />
+    <ClInclude Include="code\STEPFile.h" />
+    <ClInclude Include="code\STEPFileReader.h" />
+    <ClInclude Include="code\XGLLoader.h" />
+    <ClInclude Include="code\irrXMLWrapper.h" />
+    <ClInclude Include="contrib\irrXML\CXMLReaderImpl.h" />
+    <ClInclude Include="contrib\irrXML\heapsort.h" />
+    <ClInclude Include="contrib\irrXML\irrArray.h" />
+    <ClInclude Include="contrib\irrXML\irrString.h" />
+    <ClInclude Include="contrib\irrXML\irrTypes.h" />
+    <ClInclude Include="contrib\irrXML\irrXML.h" />
+    <ClInclude Include="contrib\ConvertUTF\ConvertUTF.h" />
+    <ClInclude Include="contrib\unzip\crypt.h" />
+    <ClInclude Include="contrib\unzip\ioapi.h" />
+    <ClInclude Include="contrib\unzip\unzip.h" />
+    <ClInclude Include="contrib\poly2tri\poly2tri\common\shapes.h" />
+    <ClInclude Include="contrib\poly2tri\poly2tri\common\utils.h" />
+    <ClInclude Include="contrib\poly2tri\poly2tri\sweep\advancing_front.h" />
+    <ClInclude Include="contrib\poly2tri\poly2tri\sweep\cdt.h" />
+    <ClInclude Include="contrib\poly2tri\poly2tri\sweep\sweep.h" />
+    <ClInclude Include="contrib\poly2tri\poly2tri\sweep\sweep_context.h" />
+    <ClInclude Include="contrib\clipper\clipper.hpp" />
+    <ClInclude Include="code\BoostWorkaround\boost\math\common_factor_rt.hpp" />
+    <ClInclude Include="code\BoostWorkaround\boost\foreach.hpp" />
+    <ClInclude Include="code\BoostWorkaround\boost\format.hpp" />
+    <ClInclude Include="code\BoostWorkaround\boost\scoped_array.hpp" />
+    <ClInclude Include="code\BoostWorkaround\boost\scoped_ptr.hpp" />
+    <ClInclude Include="code\BoostWorkaround\boost\shared_array.hpp" />
+    <ClInclude Include="code\BoostWorkaround\boost\shared_ptr.hpp" />
+    <ClInclude Include="code\BoostWorkaround\boost\make_shared.hpp" />
+    <ClInclude Include="code\BoostWorkaround\boost\static_assert.hpp" />
+    <ClInclude Include="code\BoostWorkaround\boost\tuple\tuple.hpp" />
+    <ClInclude Include="include\assimp\anim.h" />
+    <ClInclude Include="include\assimp\ai_assert.h" />
+    <ClInclude Include="include\assimp\camera.h" />
+    <ClInclude Include="include\assimp\color4.h" />
+    <ClInclude Include="include\assimp\color4.inl" />
+    <ClInclude Include="include\assimp\config.h" />
+    <ClInclude Include="include\assimp\defs.h" />
+    <ClInclude Include="include\assimp\cfileio.h" />
+    <ClInclude Include="include\assimp\light.h" />
+    <ClInclude Include="include\assimp\material.h" />
+    <ClInclude Include="include\assimp\material.inl" />
+    <ClInclude Include="include\assimp\matrix3x3.h" />
+    <ClInclude Include="include\assimp\matrix3x3.inl" />
+    <ClInclude Include="include\assimp\matrix4x4.h" />
+    <ClInclude Include="include\assimp\matrix4x4.inl" />
+    <ClInclude Include="include\assimp\mesh.h" />
+    <ClInclude Include="include\assimp\postprocess.h" />
+    <ClInclude Include="include\assimp\quaternion.h" />
+    <ClInclude Include="include\assimp\quaternion.inl" />
+    <ClInclude Include="include\assimp\scene.h" />
+    <ClInclude Include="include\assimp\texture.h" />
+    <ClInclude Include="include\assimp\types.h" />
+    <ClInclude Include="include\assimp\vector2.h" />
+    <ClInclude Include="include\assimp\vector2.inl" />
+    <ClInclude Include="include\assimp\vector3.h" />
+    <ClInclude Include="include\assimp\vector3.inl" />
+    <ClInclude Include="include\assimp\version.h" />
+    <ClInclude Include="include\assimp\cimport.h" />
+    <ClInclude Include="include\assimp\importerdesc.h" />
+    <ClInclude Include="include\assimp\Importer.hpp" />
+    <ClInclude Include="include\assimp\ProgressHandler.hpp" />
+    <ClInclude Include="include\assimp\IOSystem.hpp" />
+    <ClInclude Include="include\assimp\cexport.h" />
+    <ClInclude Include="include\assimp\Exporter.hpp" />
+    <ClInclude Include="include\assimp\Compiler\pushpack1.h" />
+    <ClInclude Include="include\assimp\Compiler\poppack1.h" />
+    <ClInclude Include="code\pstdint.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{54053B5B-A5C2-4FC1-8AF7-4687AFD437D1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{94C91249-FDCC-40AB-BCE6-0E7402FBC4A5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Compiler">
+      <UniqueIdentifier>{6636B14B-E63E-4CD3-8B27-D86E5A8DE0D1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Boost">
+      <UniqueIdentifier>{81165B73-C458-4353-B618-27535100FFCB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logging">
+      <UniqueIdentifier>{FEEFFEE6-B6D6-4DC1-93A6-4CB430B5279C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common">
+      <UniqueIdentifier>{0BF04C85-9DD8-4C8A-BA75-A25DD1E54A1A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3DS">
+      <UniqueIdentifier>{6633369B-BB92-45D6-920E-AB00DF1F2CE3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AC">
+      <UniqueIdentifier>{CE4050CB-5170-4A26-8283-A9FC3D25F79B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ASE">
+      <UniqueIdentifier>{3E7FE720-B5A6-4F11-AE56-33AA076AE902}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="B3D">
+      <UniqueIdentifier>{12745E73-B84C-40E2-B091-1962657E2C3F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BVH">
+      <UniqueIdentifier>{D9E0162B-9460-44D4-B110-57C5D41EA30A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Collada">
+      <UniqueIdentifier>{B419C567-8FCB-4C71-BC34-31756E04B3D8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DXF">
+      <UniqueIdentifier>{2089601F-C032-423A-8248-D7878FA14F36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CSM">
+      <UniqueIdentifier>{0D5D958F-1208-474D-A154-FDAA5BB92BEC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HMP">
+      <UniqueIdentifier>{7D2B58F9-A8DB-4886-ABA7-E61AA26677FB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Irr">
+      <UniqueIdentifier>{04E0BD91-B4FD-49A5-88A6-7FCEB57BAE81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LWO">
+      <UniqueIdentifier>{0703A7DB-F0CF-4C61-B83B-8549E821E514}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LWS">
+      <UniqueIdentifier>{11C278CA-407A-491A-8EF7-5621A6C165EA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="M3">
+      <UniqueIdentifier>{6E7C9FC2-ED53-43D3-A298-A7371C310CF4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MD2">
+      <UniqueIdentifier>{C0F4A30E-59E9-4899-96D6-80F9EC59FFA6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MD3">
+      <UniqueIdentifier>{7EE2D30F-2BB8-4AA1-9B36-A76570F4B3AB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MD5">
+      <UniqueIdentifier>{C334A526-698F-4375-97A9-646B000676EB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MDC">
+      <UniqueIdentifier>{9546BB71-6DE7-4429-B149-F920601D150D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MDL">
+      <UniqueIdentifier>{EBAFD0EB-CAFE-49C3-B30B-1B1860D48BD9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MaterialSystem">
+      <UniqueIdentifier>{05E5310C-6B80-4BE4-8510-4144806718BB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NFF">
+      <UniqueIdentifier>{645DC1BC-B01A-4D7C-B9A1-4A6CF340B1D7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NDO">
+      <UniqueIdentifier>{01053E43-BE2E-44CA-9C62-5A9AD681998F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OFFFormat">
+      <UniqueIdentifier>{70BDF1DD-BCD8-417D-A590-236066AF0346}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Obj">
+      <UniqueIdentifier>{07DAF77C-9171-4C5E-8006-FAD0E52FC1C8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ogre">
+      <UniqueIdentifier>{D32AC9C7-92F9-40C8-A32E-6EDC62F11CCB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ply">
+      <UniqueIdentifier>{0CA62F88-E848-4184-9D60-DBDD54C5568C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MS3D">
+      <UniqueIdentifier>{47543BDC-36E1-486C-AF55-9068626A3DDC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="COB">
+      <UniqueIdentifier>{1C72F76E-5BD0-43BA-8151-202595783BEC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BLENDER">
+      <UniqueIdentifier>{E7C65C2D-D958-4424-9BDF-F01DCBE1291C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IFC">
+      <UniqueIdentifier>{F1770AF3-6DC6-4D2D-8BD8-96F5B3827077}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="XGL">
+      <UniqueIdentifier>{1A9DB119-02CD-424E-826E-7DEB1E5E3DC0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PostProcessing">
+      <UniqueIdentifier>{09615CEF-67A1-4BA9-8F6A-BC7401ADE80C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Q3D">
+      <UniqueIdentifier>{04FA4F13-B119-4A3A-A7D6-5E709BF2E63B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Q3BSP">
+      <UniqueIdentifier>{FE5BE0C4-B45C-4FE3-82F0-0F511DD9CCDB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Raw">
+      <UniqueIdentifier>{87E4630B-717C-4E75-B484-9C83A5EA051B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SMD">
+      <UniqueIdentifier>{9180DBBE-AEE1-4D92-A7EF-56ADFC6A8DA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="STL">
+      <UniqueIdentifier>{B94A0160-CC96-4373-A141-E727351DA7C8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Unreal">
+      <UniqueIdentifier>{1638BD1B-B0CD-402D-B42A-3246C24B4D07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="XFile">
+      <UniqueIdentifier>{DAD516EF-3FD4-402B-93AE-A6BEE651D070}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Exporter">
+      <UniqueIdentifier>{78B3E867-63A8-4B20-90CE-24732E6C77C1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Extra">
+      <UniqueIdentifier>{AFF2A7A4-CBFB-4E1C-AC07-78BC3313325A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IrrXML">
+      <UniqueIdentifier>{A68D4FF6-6BCF-45F3-83A4-708DF3AB5A2C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ConvertUTF">
+      <UniqueIdentifier>{72014CA3-47AB-4259-B911-70140586AF24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Clipper">
+      <UniqueIdentifier>{C908F93A-62C6-4EBC-B44B-0C2A3D50D8E6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Poly2Tri">
+      <UniqueIdentifier>{9977219E-A14E-49BE-AE97-1DAFFBD4E4A5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="unzip">
+      <UniqueIdentifier>{E58BBDD0-7571-41DF-81A0-3E0048A10B1C}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

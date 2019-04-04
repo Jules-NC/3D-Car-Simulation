@@ -1,0 +1,13 @@
+﻿  Test.cpp
+  tutorial06.cpp
+  shader.cpp
+  controls.cpp
+  texture.cpp
+c:\users\emili\onedrive\documents\opengltutorials.vs2017\common\controls.cpp(85): warning C4244: '+=' : conversion de 'double' en 'float', perte possible de données
+c:\users\emili\onedrive\documents\opengltutorials.vs2017\tutorial06_keyboard_and_mouse\test.cpp(33): warning C4018: '<' : incompatibilité signed/unsigned
+c:\users\emili\onedrive\documents\opengltutorials.vs2017\tutorial06_keyboard_and_mouse\test.cpp(42): warning C4018: '<' : incompatibilité signed/unsigned
+c:\users\emili\onedrive\documents\opengltutorials.vs2017\tutorial06_keyboard_and_mouse\test.cpp(52): warning C4018: '<' : incompatibilité signed/unsigned
+c:\users\emili\onedrive\documents\opengltutorials.vs2017\tutorial06_keyboard_and_mouse\tutorial06.cpp(98): warning C4305: 'argument' : troncation de 'double' à 'const btScalar'
+c:\users\emili\onedrive\documents\opengltutorials.vs2017\tutorial06_keyboard_and_mouse\tutorial06.cpp(189): warning C4244: 'initialisation' : conversion de 'double' en 'float', perte possible de données
+     Création de la bibliothèque Debug/tutorial06_keyboard_and_mouse.lib et de l'objet Debug/tutorial06_keyboard_and_mouse.exp
+  tutorial06_keyboard_and_mouse.vcxproj -> C:\Users\emili\OneDrive\Documents\OpenGLTutorials.VS2017\tutorial06_keyboard_and_mouse\Debug\tutorial06_keyboard_and_mouse.exe

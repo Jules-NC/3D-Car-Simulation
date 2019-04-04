@@ -1,0 +1,14 @@
+﻿  btAlignedAllocator.cpp
+  btConvexHull.cpp
+  btConvexHullComputer.cpp
+  btGeometryUtil.cpp
+  btPolarDecomposition.cpp
+  btQuickprof.cpp
+  btSerializer.cpp
+  btVector3.cpp
+c:\users\emili\onedrive\documents\opengltutorials.vs2017\external\bullet-2.81-rev2613\src\linearmath\btpolardecomposition.cpp(63): warning C4244: 'initialisation' : conversion de 'double' en 'btScalar', perte possible de données
+c:\users\emili\onedrive\documents\opengltutorials.vs2017\external\bullet-2.81-rev2613\src\linearmath\btpolardecomposition.cpp(63): warning C4244: 'initialisation' : conversion de 'double' en 'const btScalar', perte possible de données
+c:\users\emili\onedrive\documents\opengltutorials.vs2017\external\bullet-2.81-rev2613\src\linearmath\btpolardecomposition.cpp(66): warning C4244: 'argument' : conversion de 'double' en 'const btScalar', perte possible de données
+c:\users\emili\onedrive\documents\opengltutorials.vs2017\external\bullet-2.81-rev2613\src\linearmath\btvector3.cpp(46): warning C4838: la conversion de 'int' en 'const unsigned char' requiert une conversion restrictive
+c:\users\emili\onedrive\documents\opengltutorials.vs2017\external\bullet-2.81-rev2613\src\linearmath\btvector3.cpp(431): warning C4838: la conversion de 'int' en 'const unsigned char' requiert une conversion restrictive
+  LinearMath.vcxproj -> C:\Users\emili\OneDrive\Documents\OpenGLTutorials.VS2017\Intermediate\Lib\Debug\LinearMath.lib

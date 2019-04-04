@@ -1,0 +1,4 @@
+﻿  objloader.cpp
+c:\users\emili\onedrive\documents\opengltutorials.vs2017\common\objloader.cpp(135): warning C4018: '<' : incompatibilité signed/unsigned
+c:\users\emili\onedrive\documents\opengltutorials.vs2017\common\objloader.cpp(196): warning C4715: 'loadAssImp' : les chemins de contrôle ne retournent pas tous une valeur
+  tutorial09_AssImp.vcxproj -> C:\Users\emili\OneDrive\Documents\OpenGLTutorials.VS2017\tutorial09_vbo_indexing\Debug\tutorial09_AssImp.exe

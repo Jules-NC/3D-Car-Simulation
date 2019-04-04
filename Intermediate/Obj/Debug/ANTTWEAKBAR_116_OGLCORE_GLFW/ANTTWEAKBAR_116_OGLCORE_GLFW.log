@@ -1,0 +1,28 @@
+﻿  LoadOGL.cpp
+  LoadOGLCore.cpp
+  TwColors.cpp
+  TwBar.cpp
+  TwFonts.cpp
+  TwMgr.cpp
+  TwOpenGL.cpp
+  TwOpenGLCore.cpp
+c:\users\emili\onedrive\documents\opengltutorials.vs2017\external\anttweakbar-1.16\src\twmgr.cpp(6225): warning C4302: 'cast de type' : troncation de 'LPSTR' à 'WORD'
+c:\users\emili\onedrive\documents\opengltutorials.vs2017\external\anttweakbar-1.16\src\twmgr.cpp(6226): warning C4302: 'cast de type' : troncation de 'LPSTR' à 'WORD'
+c:\users\emili\onedrive\documents\opengltutorials.vs2017\external\anttweakbar-1.16\src\twmgr.cpp(6227): warning C4302: 'cast de type' : troncation de 'LPSTR' à 'WORD'
+c:\users\emili\onedrive\documents\opengltutorials.vs2017\external\anttweakbar-1.16\src\twmgr.cpp(6228): warning C4302: 'cast de type' : troncation de 'LPSTR' à 'WORD'
+c:\users\emili\onedrive\documents\opengltutorials.vs2017\external\anttweakbar-1.16\src\twmgr.cpp(6229): warning C4302: 'cast de type' : troncation de 'LPSTR' à 'WORD'
+c:\users\emili\onedrive\documents\opengltutorials.vs2017\external\anttweakbar-1.16\src\twmgr.cpp(6230): warning C4302: 'cast de type' : troncation de 'LPSTR' à 'WORD'
+c:\users\emili\onedrive\documents\opengltutorials.vs2017\external\anttweakbar-1.16\src\twmgr.cpp(6231): warning C4302: 'cast de type' : troncation de 'LPSTR' à 'WORD'
+c:\users\emili\onedrive\documents\opengltutorials.vs2017\external\anttweakbar-1.16\src\twmgr.cpp(6232): warning C4302: 'cast de type' : troncation de 'LPSTR' à 'WORD'
+c:\users\emili\onedrive\documents\opengltutorials.vs2017\external\anttweakbar-1.16\src\twmgr.cpp(6233): warning C4302: 'cast de type' : troncation de 'LPSTR' à 'WORD'
+c:\users\emili\onedrive\documents\opengltutorials.vs2017\external\anttweakbar-1.16\src\twmgr.cpp(6234): warning C4302: 'cast de type' : troncation de 'LPSTR' à 'WORD'
+c:\users\emili\onedrive\documents\opengltutorials.vs2017\external\anttweakbar-1.16\src\twmgr.cpp(6235): warning C4302: 'cast de type' : troncation de 'LPSTR' à 'WORD'
+c:\users\emili\onedrive\documents\opengltutorials.vs2017\external\anttweakbar-1.16\src\twmgr.cpp(6236): warning C4302: 'cast de type' : troncation de 'LPSTR' à 'WORD'
+c:\users\emili\onedrive\documents\opengltutorials.vs2017\external\anttweakbar-1.16\src\twmgr.cpp(6237): warning C4302: 'cast de type' : troncation de 'LPSTR' à 'WORD'
+c:\users\emili\onedrive\documents\opengltutorials.vs2017\external\anttweakbar-1.16\src\twmgr.cpp(6239): warning C4302: 'cast de type' : troncation de 'LPSTR' à 'WORD'
+c:\users\emili\onedrive\documents\opengltutorials.vs2017\external\anttweakbar-1.16\src\twmgr.cpp(6252): warning C4302: 'cast de type' : troncation de 'LPSTR' à 'WORD'
+c:\users\emili\onedrive\documents\opengltutorials.vs2017\external\anttweakbar-1.16\src\twmgr.cpp(6258): warning C4302: 'cast de type' : troncation de 'LPSTR' à 'WORD'
+c:\users\emili\onedrive\documents\opengltutorials.vs2017\external\anttweakbar-1.16\src\twmgr.cpp(6267): warning C4302: 'cast de type' : troncation de 'LPSTR' à 'WORD'
+  TwPrecomp.cpp
+  TwEventGLFW.c
+  ANTTWEAKBAR_116_OGLCORE_GLFW.vcxproj -> C:\Users\emili\OneDrive\Documents\OpenGLTutorials.VS2017\Intermediate\Lib\Debug\ANTTWEAKBAR_116_OGLCORE_GLFW.lib
